@@ -26,7 +26,7 @@
 
 ---
 
-## 3️⃣ Making the Page Fully Responsive
+##Making the Page Fully Responsive
 
 ### ✅ Mobile-Friendly Features
 - Uses Bootstrap Grid (`col-md-*`) for responsiveness.
