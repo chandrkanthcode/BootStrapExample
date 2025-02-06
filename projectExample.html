@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Landing Page</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">MyBusiness</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1>Welcome to MyBusiness</h1>
+            <p class="lead">We help you grow your business with expert solutions.</p>
+            <a href="#" class="btn btn-light btn-lg">Get Started</a>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section class="container text-center my-5">
+        <h2>Our Services</h2>
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card m-2 p-3">
+                    <i class="bi bi-bar-chart fs-1 text-primary"></i>
+                    <h5>Marketing</h5>
+                    <p>Grow your audience with our marketing strategies.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card m-2 p-3">
+                    <i class="bi bi-laptop fs-1 text-primary"></i>
+                    <h5>Web Development</h5>
+                    <p>We create responsive and modern websites.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card m-2 p-3">
+                    <i class="bi bi-people fs-1 text-primary"></i>
+                    <h5>Consulting</h5>
+                    <p>Get expert advice for your business growth.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="bg-light py-5">
+        <div class="container text-center">
+            <h2>What Our Clients Say</h2>
+            <div id="testimonialCarousel" class="carousel slide mt-4" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <p>"Great service and support!" - John Doe</p>
+                    </div>
+                    <div class="carousel-item">
+                        <p>"Highly recommended for any business!" - Jane Smith</p>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="container text-center my-5">
+        <h2>Contact Us</h2>
+        <form class="mt-4">
+            <div class="mb-3">
+                <input type="text" class="form-control" placeholder="Your Name">
+            </div>
+            <div class="mb-3">
+                <input type="email" class="form-control" placeholder="Your Email">
+            </div>
+            <div class="mb-3">
+                <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 MyBusiness. All Rights Reserved.</p>
+    </footer>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
